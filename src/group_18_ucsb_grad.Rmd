@@ -1,0 +1,17 @@
+---
+title: "Group 18 UCSB Domestic Grad Enrollment"
+author: "Sydney Rilum and Kaley Dodson"
+date: "11/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+```
+
+```{r}
+ucsb_grad <- read_csv(here("data", "ucsb_grad_data.csv"))
+```
+
